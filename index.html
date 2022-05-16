@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css">
+
+    <script
+      src="https://kit.fontawesome.com/8cf3632fc7.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+
+  <body>
+    <main class="nftcard">
+      <div class="nftcard-container">
+        <div class="nftcard-main">
+          <div class="nftcard-img-box">
+            <img
+            class="nftcard-img"
+            src="images/image-equilibrium.jpg"
+            alt="Transparent cube with red light through it"
+            />
+            <div class="overlay">
+            </div>
+            <span class="overlay-eye">
+              <ion-icon class="overlay-icon" name="eye">
+            </span>
+          </div>
+
+          <div class="nftcard-text">
+            <a class="nftcard-text--title" href="#">Equilibrium #3429</a>
+            <p class="nftcard-text--description">
+              Our Equilibrium collection promotes balance and calm.
+            </p>
+            <div class="nftcard-text--indicator">
+              <p class="indicator--price">
+                <i class="fa-brands fa-ethereum"></i>
+                <span>0.041 ETH</span>
+              </p>
+              <p class="indicator--daysleft">
+                <ion-icon name="time"></ion-icon></i><span>3 days left</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="nftcard-creator">
+          <div class="creator">
+            <img
+              class="creator--img"
+              src="images/image-avatar.png"
+              alt="Headshot of Jules Wyvern"
+            />
+          </div>
+          <p>Creation of&nbsp;<a href="#">Jules Wyvern</a></p>
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Soojeong Park</a>.
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

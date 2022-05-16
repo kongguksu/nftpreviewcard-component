@@ -1,0 +1,39 @@
+@media (max-width: 24em) {
+  .nftcard {
+    margin-top: 4rem;
+    width: 20.5rem;
+  }
+
+  .nftcard-img-box {
+    width: 17.6rem;
+    height: 17.6rem;
+  }
+
+  .nftcard-text--title {
+    font-size: 1.3rem;
+  }
+
+  .nftcard-text--description {
+    font-size: 1.1rem;
+  }
+
+  .nftcard-text--indicator {
+    font-size: 1.1rem;
+  }
+
+  .nftcard-creator {
+    gap: 1rem;
+  }
+
+  .nftcard-creator p {
+    font-size: 1rem;
+  }
+
+  .creator--img {
+    width: 2rem;
+  }
+
+  .attribution {
+    margin-bottom: 4rem;
+  }
+}
