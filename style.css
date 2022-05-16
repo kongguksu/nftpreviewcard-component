@@ -87,6 +87,7 @@ body {
   height: 15.6rem;
   border-radius: 7px;
   position: relative;
+  cursor: pointer;
 }
 
 .nftcard-img {
